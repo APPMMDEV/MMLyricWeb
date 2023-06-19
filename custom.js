@@ -36,6 +36,9 @@ function getAllData(){
             <div class="card-body">
                 <p><strong>Title</strong> ${allData.Lyrics_Database[single].title}</p>
                 <span><strong>Singer Name:</strong> ${allData.Lyrics_Database[single].singername}</span>
+
+                <br><br>
+                <p><img src="${allData.Lyrics_Database[single].lyricImg}" alt="alternatetext"  height="250" width="120"></p>
             </div>
         </div>
     </div>`
