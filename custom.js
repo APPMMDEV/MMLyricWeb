@@ -34,11 +34,11 @@ function getAllData(){
         dataStore += `<div class="col-3">
         <div class="card text-white bg-primary mb-3  height="250" width="120" >
             <div class="card-body" >
-                <p><strong>Title</strong> ${allData.Lyrics_Database[single].title}</p>
-                <span><strong>Singer Name:</strong> ${allData.Lyrics_Database[single].singername}</span>
+                <p class="card_preview-title"><strong>Title</strong> ${allData.Lyrics_Database[single].title}</p>
+                <span class="card_preview-title"><strong>Singer Name:</strong> ${allData.Lyrics_Database[single].singername}</span>
 
                 <br><br>
-                <p><img src="${allData.Lyrics_Database[single].lyricImg}" alt="alternatetext"  height="250" width="150"></p>
+                <p><img class="image_style" src="${allData.Lyrics_Database[single].lyricImg}" alt="alternatetext"  height="250" width="150"></p>
             </div>
         </div>
     </div>`
