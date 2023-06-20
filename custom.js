@@ -38,7 +38,7 @@ function getAllData(){
                 <span class="card_preview-title"><strong>Singer Name:</strong> ${allData.Lyrics_Database[single].singername}</span>
 
                 <br><br>
-                <p><img class="image_style" src="${allData.Lyrics_Database[single].lyricImg}" alt="alternatetext"  height="250" width="150"></p>
+                <p><img class="image_style" src="${allData.Lyrics_Database[single].lyricImg}" alt="${allData.Lyrics_Database[single].title}"  height="250" width="150"></p>
             </div>
         </div>
     </div>`
