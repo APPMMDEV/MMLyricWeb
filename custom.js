@@ -13,7 +13,7 @@ function getAllData(){
     var allData = "";
     var xmlhttp =   new XMLHttpRequest();
 
-    var url = 'https://appmmdev.github.io/MMLyric/Data/lyricweb.json';
+    var url = 'https://appmmdev.github.io/MMLyric/Data/lyrics.json';
 
     // var url = "https://dummy.restapiexample.com/api/v1/employees";
     xmlhttp.open('GET',url,true);
